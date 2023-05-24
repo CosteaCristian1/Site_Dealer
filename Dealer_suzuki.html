@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders - Suzuki</title>
+    <link rel="stylesheet" href="stylesuzuki.css">
+</head>
+<body>
+<h1>Dealer CostAuto</h1>
+<div class="flex-container">
+    <div class="dropdown">
+        <button class="dropbtn">Modele/Producatori</button>
+        <div class="dropdown-content">
+            <a href="Dealer_skoda.html">Skoda</a>
+            <a href="Dealer_dacia.html">Dacia</a>
+        </div>
+    </div>
+    <a href="Home.html" class="homepageb">Homepage</a>
+</div>
+<br><br>
+<main class="meniu">
+    <h2 class="centrare_text">Suzuki Vitara</h2>
+    <img src="suzuki_vitara.jpg" class="suzuki_vitara centrare">
+    <ul>
+        <li><strong>Pret:</strong> &euro;25.000-&euro;35.000</li>
+        <li><strong>Motorizari valabile:</strong> 2.0L TSI, 1.6 MPI, 1.5 TDI</li>
+        <li><strong>Transmisii:</strong> 6MT(FWD/AWD), 6DSG(FWD)</li>
+        <li><strong>Nivel de echipare:</strong> Basic, Premium</li>
+        <li><strong>Culori:</strong> Red, Blue, Silver</li>
+    </ul><br><br>
+    <h2 class="centrare_text">Suzuki S-CROSS</h2>
+    <img src="scross.jpg" class="suzuki_vitara centrare"><br>
+    <ul>
+        <li><strong>Pret:</strong> &euro;25.000-&euro;40.000</li>
+        <li><strong>Motorizari valabile:</strong> 2.0L TSI, 1.6 HYBRID</li>
+        <li><strong>Transmisii:</strong> 6MT(FWD), 6AT(FWD/AWD)</li>
+        <li><strong>Nivel de echipare:</strong> Basic, Premium</li>
+        <li><strong>Culori:</strong> Blue, Silver, Brown</li>
+    </ul>
+    <h2 class="centrare_text">Suzuki Swift</h2>
+    <img src="swift.jpg" class="suzuki_vitara centrare"><br>
+    <ul>
+        <li><strong>Pret:</strong> &euro;15.000-&euro;30.000</li>
+        <li><strong>Motorizari valabile:</strong> 1.6 MPI, 1.6 HYBRID, FULL EV</li>
+        <li><strong>Transmisii:</strong> 6MT(FWD), 6AT(FWD/AWD)</li>
+        <li><strong>Nivel de echipare:</strong> Basic, Premium</li>
+        <li><strong>Culori:</strong> Blue, Silver, Red, Black</li>
+    </ul><br><br>
+    <h2>Solicita oferta</h2><br><br>
+    <form id="orderForm">
+        <input class="centrare" type="radio" id="vitara" name="model" value="Vitara">
+        <label class="centrare" for="vitara" style="font-size:20px">Vitara</label><br>
+        <input class="centrare" type="radio" id="scross" name="model" value="S-Cross">
+        <label class="centrare" for="scross" style="font-size:20px">S-Cross</label><br>
+        <input class="centrare" type="radio" id="swift" name="model" value="Swift">
+        <label class="centrare" for="swift" style="font-size:20px">Swift</label><br><br>
+        <label class="centrare" for="informati">Nivel de echipare</label><br>
+        <input class="centrare" type="text" id="informati" name="informati"><br><br>
+        <label class="centrare" for="email">Introduceti email</label><br>
+        <input class="centrare" type="text" id="email" name="email"><br><br>
+        <input class="centrare" type="submit" value="Submit">
+    </form>
+
+    <div id="orderList">
+        <h2>Your Orders:</h2>
+        <ul id="orderItems"></ul>
+    </div>
+</main>
+
+<script src="script_suzuki.js"></script>
+</body>
+</html>

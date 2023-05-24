@@ -1,0 +1,109 @@
+.homepageb{
+    background-color: Gray;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    text-decoration:none
+}
+.homepageb:hover{
+    background-color: darkred;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkgray;
+    justify-content: space-between;
+}
+
+.flex-container > div {
+    background-color: darkgray;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.dropbtn {
+    background-color: Gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    transition: all 1s;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    height: 145px;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: darkred;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 24px;
+    padding-left: 1000 px;
+    margin-top: 0px;
+    border: solid;
+    text-align: center;
+    border-color: darkred;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.meniu{
+    width: 80%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.suzuki_vitara{
+    height: 80%;
+    width: 80%;
+}
+.centrare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centrare_text{
+    text-align: center;
+}
